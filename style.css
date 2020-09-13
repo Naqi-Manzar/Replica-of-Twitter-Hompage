@@ -1,0 +1,221 @@
+/* fake twitter */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body #main{
+    margin: 0 auto;
+    color: white;
+    width: 100%;
+}
+
+header{
+    float: right;
+    width:50%;
+    background-color: #243447;
+    height: 717px;
+}
+
+#inLine{
+    text-align: center;
+    margin: 12px 10px 0;
+}
+
+.usernameBox, .passwordBox, .loginButton{
+    display: inline-block;
+}
+.usernameBox{ 
+    font-size: 16px;
+    margin: 5px 20px 0;
+    padding: 5px;
+}
+
+.passwordBox{
+    text-align:start;
+    font-size: 16px;
+    margin: 5px 10px 0;
+    padding: 5px 15px;
+    padding-left: 0;
+
+}
+
+.loginButton{
+    text-align: left;
+    margin:5px 20px 0;
+}
+
+.loginButton input{
+    font-size: 15px;
+    font-weight: bold;
+    color: #1da1f2;
+    font-family: arial, sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #1da1f2;
+    background: #243447;
+}
+
+.loginButton input:hover{
+    background: #1d3d4e;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px 15px;
+    color: white;
+    width: 100%;
+    background: #1d3d4e;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+label{
+    display:inline-block;
+    width: 100%;    
+    padding:2% 13.5% 2% 4%;
+    background: #1d3d4e;
+    color: grey;
+    
+}
+
+
+
+
+
+.center{
+    text-align:start;
+    margin: 120px 0;
+}
+
+
+
+.rightContainer{
+    text-align:center;
+    margin: 0px 150px;
+    padding: 0px 100px;
+}
+
+
+p.small{
+     margin-top: 50px;
+    text-align: start;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial;
+    
+}
+
+.rightContainer li{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Arial;
+    text-align: start;
+    margin-bottom: 2px;
+    list-style: none;
+}
+
+
+.image img{
+    text-align:start;
+    padding-left: 240px;
+    padding-top: 0px;
+}
+
+.signUp, .logIn{
+    margin: 8px ;
+    padding: 4px;
+}
+
+.signUp input{
+    font-size: 17px;
+    padding: 5px 100px; 
+    border-radius: 12px;
+    background-color: #1da1f2;
+    border: 1px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+.logIn input{
+    font-size: 17px;
+    padding: 5px 104px; 
+    border-radius: 12px;
+    background:#243447;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    font-weight: 600;
+}
+
+section .signUp input:hover{
+    background:#009fdc;
+}
+section .logIn input:hover{
+    background: #1d3d4e;
+}
+
+
+small{
+    font-size: 12px;
+    margin-left: 460px;
+}
+
+
+
+.leftContainer{ 
+    background: #79aaff url(image/background.jpeg)center repeat-x ;
+    float:left;
+    width:50%;
+    height: 705px;
+    color: white;
+    font-size: 23px;
+    font-weight:550;
+    font-family: arial;
+     
+}
+
+
+.leftContainer ul{
+    margin: 250px 20px 100px 200px;
+    text-align: center;
+}
+
+.leftContainer li{
+    margin: 30px 0;
+    text-align: start;
+    padding: 3px;
+    list-style: none;
+    }
+
+
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 12px;
+    background-color: #243447;
+}
+    
+nav ul li, a{
+    color:#c0deed;
+    display: inline;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
